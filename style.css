@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    box-sizing: border-box; /*siri fa7mi7*/
+    font-family: poppins,sans-serif;
+    text-decoration: none;
+    
+}
+
+.row {
+    background-color: #F2F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 15px 0 15px; */
+    gap: 300px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10rem;
+
+
+}
+
+.logo p {
+    margin-left: 10px;
+}
+
+.navigation {
+    /* width : 50%;  */
+    width: 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    
+}
+
+.menu ul {
+    display : flex;
+    list-style: none;
+    align-items: center;
+ }
+
+ .menu ul > li {
+    padding-right: 15px;
+ }
+
+ /* -----------------contact------------------------ */
+
+ .contact {
+    background-color: #F2F7FF;
+    padding: 4rem 0 4rem 10rem;
+
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info input, .info select {
+    width: 497px;
+    margin-top: 20px;
+    padding: 7px;
+    border: 2px solid #094B72;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ /* ---------------------------------------footer--------------------------------------- */
+ .feet1 {
+    
+    background-color: #094B72;
+    color : #FFF;
+    display : flex;
+    flex : arrow;
+    /* justify-content :space-evenly; */
+    gap: 25rem;
+    padding: 0 0 3rem 0;
+ }
+
+.pf1 {
+    display : flex;
+    flex : arrow;
+    align-items: center;
+}
+
+ .pf2 {
+    display : flex;
+    flex : arrow;
+    justify-content: center;
+    align-items: center;
+    gap : 2rem;
+    padding-top : 4rem;
+
+    
+ }
+
+.pf2 h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+ .pf2 li {
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+font-size: 16px;
+font-style: normal;
+padding-bottom: 20px;
+
+ }
+
+ .features {
+    margin-left: 38px;
+ }
+
+ .feets {
+    height: 400px;
+    background-color: #094B72;
+    /* color:ffffff; */
+    display: flex;
+    flex-direction: column;
+ }
+
+ .feet2{
+    background-color: #004D7B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 42rem;
+    padding : 0 3em 0 9em;
+ }
+
+ .logo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 3em;
+    display: block;
+ }
